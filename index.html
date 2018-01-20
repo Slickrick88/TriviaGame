@@ -13,24 +13,32 @@
 <body>
     <div class = "container">
         <div class="row header" id="title">
-            <div class="col-lg-10 jumbotron" id="gameName">
+            <div class="col-lg-12 jumbotron" id="gameName">
               <h1>Totally Trivia! Trivia?</h1>
             </div>
         </div>
         <div class="row" id="start">
             <button class="btn btn-primary btn-lg" id="startButton">Let Start the Game</button>
-            <button class="btn btn-primary btn-lg" id="pauseButton">Pause</button>
         </div>
         <div class="row jumbotron" id="timing">
-            <div class="col-lg-5 " id="timerText"><h3>Time Remaining: </h3></div>
             <div class="col-lg-5 " id="timer"></div>
         </div>
         <div class="row jumbotron" id="Trivia">
             <div class="row question" id="TriviaQ">Question</div>
-            <div class="row answer" id="a0" att="answer">Answer 1</div>
-            <div class="row answer" id="a1" att="answer">Answer 2</div>
-            <div class="row answer" id="a2" att="answer">Answer 3</div>
-            <div class="row answer" id="a3" att="answer">Answer 4</div>
+            <br>
+            <div class="row tAnswer" id="a0" ans="answer">Answer 1</div>
+            <div class="row tAnswer" id="a1" ans="answer">Answer 2</div>
+            <div class="row tAnswer" id="a2" ans="answer">Answer 3</div>
+            <div class="row tAnswer" id="a3" ans="answer">Answer 4</div>
+        </div>
+        <div class="row jumbotron" id="answerVerification">
+            <div class="row answered" id="answerID"></div> 
+            <img class ="imageClass" id="image-holder" src="">
+        </div>
+        <div class="row jumbotron " id="scoreData">
+            <div class="col-lg-4 score" id="asnweredCorrectly"></div>
+            <div class="col-lg-4 score" id="asnweredIncorrrectly"></div>
+            <div class="col-lg-4 score" id="didntAnswer"></div>
         </div>
     </div>
 </body>

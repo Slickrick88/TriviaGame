@@ -11,231 +11,241 @@ var triviaGame = {
     //questionsArray
     questionsAsked: [],
     //interval
-    interval: 28,
-    time: 28,
+    interval: 15,
+    time: 15,
     //answer order
     answerOrder: [],
     // questions
     questions:[{
-        question: "question0",
+        question: "What was ALF's girlfriend from Melmac's name?",
         //possible answers to those questions
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a",
-            isCorrect: "true",
+            answer: "Rhonda",
+            isCorrect: true,
             //link to picture for right asnwer
-            pickLink: "path"
+            pickLink: "assets/images/ALF.jpg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "Sharnath",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "Beatrice",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "Kathy",
+            isCorrect: false
             }]
         },
         {
-        question: "question1",
+        question: "What actor was famous for the line nanoo nanoo?",
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a",
-            isCorrect: "true",
-            pickLink: "path"
+            answer: "Robin Williams for his character Mork from Ork",
+            isCorrect: true,
+            pickLink: "assets/images/RobinWilliams.jpg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "Sue Ellen's sister, Kristin ",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "Dorothy Tootie Ramsey",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "Rick Blake in Dancing With the Stars",
+            isCorrect: false
             }]
         },
         {
-        question: "question2",
+        question: "What's the name of the company that creates Wile E. Coyote's many devices?",
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a",
-            isCorrect: "true",
-            pickLink: "path"
+            answer: "Acme",
+            isCorrect: true,
+            pickLink: "assets/images/acme.jpg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "General Electric",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "Acmax",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "Axno",
+            isCorrect: false
             }]
         },
         {
-        question: "question3",
+        question: "What does Marvin the Martian call his stick of dynamite?",
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a",
-            isCorrect: "true",
-            pickLink: "path"
+            answer: "The Illudium Q-36 Exposive Space Modulator",
+            isCorrect: true,
+            pickLink: "assets/images/martian.jpg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "Boom Stick",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "The P-34 Thermal Detonator",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "The Ultimate Nullifier",
+            isCorrect: false
             }]
         },
         {
-        question: "question4",
+        question: "What hit song was featured on the Space Jam soundtrack?",
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a", 
-            isCorrect: "true",
-            pickLink: "path"
+            answer: "I Believe I Can Fly", 
+            isCorrect: true,
+            pickLink: "assets/images/spaceJam.jpg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "Beautiful Day",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "First of the Month",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "Believe!",
+            isCorrect: false
             }]
         },
         {
-        question: "question5",
+        question: "What was the Tazamanian Devil's solo TV show called?",
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a", 
-            isCorrect: "true",
-            pickLink: "path"
+            answer: "Taz-Mania", 
+            isCorrect: true,
+            pickLink: "assets/images/taz.jpg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "The Devil Down Under",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "Trippen with Taz",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "Devil you Know",
+            isCorrect: false
             }]
         },
         {
-        question: "question6",
+        question: "Complete the quote: I will name him ______ and I will hug him and pet him",
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a", 
-            isCorrect: "true",
-            pickLink: "path"
+            answer: "George", 
+            isCorrect: true,
+            pickLink: "assets/images/george.jpg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "Ralph",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "Rick",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "Darrin",
+            isCorrect: false
             }]
         },
         {
-        question: "question7",
+        question: "The short What's Opera Doc? lampoons the works of which composer?",
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a", 
-            isCorrect: "true",
-            pickLink: "path"
+            answer: "Ralph Wagner", 
+            isCorrect: true,
+            pickLink: "assets/images/operaDoc.jpg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "Wolfgang Amadeus Mozart",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "Giacomo Puccini",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "Giuseppe Verdi",
+            isCorrect: false
             }]
         },
         {
-        question: "question8",
+        question: "Complete the quote: I knew I should have taken a left turn at __________",
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a", 
-            isCorrect: "true",
-            pickLink: "path"
+            answer: "Albuquerque", 
+            isCorrect: true,
+            pickLink: "assets/images/Albuquerque.jpeg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "Tallahassee",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "Charlotte",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "Baton Rouge",
+            isCorrect: false
             }]
         },
         {
-        question: "question9",
+        question: "What is Foghorn Leghorn's signature phrase?",
         answerSelected: 0,
         possibleAnswers: [{
-            answer: "a", 
-            isCorrect: "true",
-            pickLink: "path"
+            answer: "I say, I say", 
+            isCorrect: true,
+            pickLink: "assets/images/Foghorn.jpeg"
             },{
-            answer: "b",
-            isCorrect: "false"
+            answer: "Whats up doc?",
+            isCorrect: false
             },{
-            answer: "c",
-            isCorrect: "false"
+            answer: "Listen up y'all",
+            isCorrect: false
             },{
-            answer: "d",
-            isCorrect: "false"
+            answer: "I do declare",
+            isCorrect: false
             }]
         }
     ],
 
     start: function(){
+        //determine if game is already running
         if(gameActive===true){
+            //game is already running execute next round
             triviaGame.questionShown();
         } else {
-            gameActive===true;
-            triviaGame.questionShown(); 
+            //start a new game
+            triviaGame.questionShown();
         };
     },
 
-    pause: function(){
-        gameActive===false;
-        triviaGame.questionsAsked.length=0;
-        triviaGame.time=28;
+    //round reset function
+    rReset: function(){
         clearInterval(intervalID);
-        $("#timer").text("Paused");
-        return;
-    }, 
-
-    reset: function(){
-        triviaGame.questionsAsked.length=0;
+        clearTimeout();
         triviaGame.answerOrder.length=0;
         triviaGame.time=triviaGame.interval;
-        clearInterval(intervalID);
+        $("#timing").show();
+        $("#Trivia").show();
+        $("#answerVerification").hide();
+        $("#scoreData").hide();
+        $("#timer").text(triviaGame.time);
         triviaGame.start();
     },
 
-    //pick question
+    //game reset function
+    gReset: function(){
+        gameActive===true;
+        $("#start").hide(); 
+        triviaGame.questionsAsked.length=0;
+        triviaGame.rReset();
+    },
+
+    //determine if game is over or not.
     questionShown: function() {
-        console.log("Button Pushed");
         if(triviaGame.questionsAsked.length === 10){
-            reset();            
+            // gamee over display results
+            triviaGame.displayResults();
+            $("#start").show();            
         } else{
+            //pick new question
             triviaGame.pickQuestion();
         }
     },
 
+    //pick question
     pickQuestion: function(){
         qSelector = Math.floor(Math.random() * 10);
         console.log("qSelector = "+qSelector);
@@ -256,9 +266,9 @@ var triviaGame = {
     //randomizes the answer order
     pickRandomAnswers: function(){
         answer = Math.floor(Math.random() * 4);
-        console.log("pick answer ="+ answer);
         if(triviaGame.answerOrder.indexOf(answer)===-1){
             triviaGame.answerOrder.push(answer);
+            console.log("answer order: "+ triviaGame.answerOrder)
             if(triviaGame.answerOrder.length===4){
                 //update dom
                 triviaGame.UpdateAnswers();
@@ -273,56 +283,88 @@ var triviaGame = {
     // updates dom based on random answer order
     UpdateAnswers: function(){
         console.log("updatedAsnwers");
-        // for(i=0; i<3; i++){
-        //     console.log("i is = " +i+" "+triviaGame.answerOrder[i])
-        //     a = parseInt(triviaGame.answerOrder[i]);
-        //     q = triviaGame.questions[qSelector].question.possibleAnswers[a].answer;
-        //     id = "#"+i;
-            // console.log("id= "+ id + "attr= "+ triviaGame.questions[qSelector].question.possibleAnswers[a].isCorrect);
-            // $(id).text(triviaGame.questions[qSelector].question.possibleAnswers[a].answer);
-            // $(id).attr(triviaGame.questions[qSelector].question.possibleAnswers[a].isCorrect);
-        // };
-        //starts timer at interval determined
         $("#a0").text(triviaGame.questions[qSelector].possibleAnswers[triviaGame.answerOrder[0]].answer);
-        $("#a0").attr(triviaGame.questions[qSelector].possibleAnswers[triviaGame.answerOrder[0]].isCorrect);
+        $("#a0").attr('ans',triviaGame.questions[qSelector].possibleAnswers[triviaGame.answerOrder[0]].isCorrect);
         $("#a1").text(triviaGame.questions[qSelector].possibleAnswers[triviaGame.answerOrder[1]].answer);
+        $("#a1").attr('ans',triviaGame.questions[qSelector].possibleAnswers[triviaGame.answerOrder[1]].isCorrect);
         $("#a2").text(triviaGame.questions[qSelector].possibleAnswers[triviaGame.answerOrder[2]].answer);
+        $("#a2").attr('ans',triviaGame.questions[qSelector].possibleAnswers[triviaGame.answerOrder[2]].isCorrect);
         $("#a3").text(triviaGame.questions[qSelector].possibleAnswers[triviaGame.answerOrder[3]].answer);
+        $("#a3").attr('ans',triviaGame.questions[qSelector].possibleAnswers[triviaGame.answerOrder[3]].isCorrect);
         triviaGame.timeLeft();
     },
 
     //interval function for countdown
     timeLeft: function(){
-        intervalID = setInterval(triviaGame.countDown,1*1000);
+        $("#timer").text("Time Remaining: "+ triviaGame.time);
+        intervalID = setInterval(triviaGame.countDown,1000);
     },
 
     //displays countdown timer in the dom
     countDown: function(){
         if(triviaGame.time>0){
+            //time still remainin
             triviaGame.time --;
-            $("#timer").text(triviaGame.time);
+            $("#timer").text("Time Remaining: "+ triviaGame.time);
         }else{
-            triviaGame.stop()
+            //times up increment answers not answered and move to next round
+            triviaGame.answeredNot ++;
+            triviaGame.rReset();
         }
     },
 
-    stop: function(){
-        triviaGame.answeredNot ++;
-        triviaGame.reset();
+    // executed when answer is picked to see if answer is correct
+    check: function(s){ 
+        clearInterval(intervalID);
+        setTimeout(triviaGame.rReset, 3000);
+        if(s==="true"){
+            triviaGame.answeredRight++;
+            $("#timing").hide();
+            $("#Trivia").hide(); 
+            $("#answerVerification").show();
+            $("#answerID").text("Correct!");
+            $("#image-holder").attr('src',triviaGame.questions[qSelector].possibleAnswers[0].pickLink);   
+        } else {
+            triviaGame.answeredWrong++;
+            $("#timing").hide();
+            $("#Trivia").hide(); 
+            $("#answerVerification").show();
+            $("#answerID").text("Incorrect - Correct Answer was: " + triviaGame.questions[qSelector].possibleAnswers[0].answer);
+            $("#image-holder").attr('src',"assets/images/wrong.jpg");    
+        }
+    },
+
+    //when round is over updates the dom with game stats
+    displayResults: function(){
+        gameActive ===false;
+        clearInterval(intervalID);   
+        $("#timing").hide();
+        $("#Trivia").hide();
+        $("#scoreData").show();
+        $("#asnweredCorrectly").text("Correct Answers:  " + triviaGame.answeredRight);
+        $("#asnweredIncorrrectly").text("Incorrect Answers:  " + triviaGame.answeredWrong);
+        $("#didntAnswer").text("Didnt Answer:  " + triviaGame.answeredNot);
     }
 
 };
 
     
-    
+ //set global variables   
 var intervalID;
+var countDownID;
 var gameActive = false;
+var s=false;
 
+//execute the game
 window.onload = function() {
-$("#startButton").on("click", triviaGame.start);
-$("#pauseButton").on("click", triviaGame.pause);
-$("#a0").on("click", triviaGame.check);
-$("#a1").on("click", triviaGame.check);
-$("#a2").on("click", triviaGame.check);
-$("#a3").on("click", triviaGame.check);
+    $("#timing").hide();
+    $("#Trivia").hide();
+    $("#scoreData").hide();
+    $("#answerVerification").hide();
+    $("#startButton").on("click", triviaGame.gReset);
+    $(".tAnswer").on("click",  function(){
+        s = $(this).attr('ans');
+        console.log("s = "+ s);
+        triviaGame.check(s);
+    });
 };
